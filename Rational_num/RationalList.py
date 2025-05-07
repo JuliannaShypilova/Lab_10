@@ -88,7 +88,7 @@ if __name__ == "__main__":
     for filename in input_files:
         process_file(filename, output_lines)
 
-    with open("test_files/output.txt", "w", encoding="utf-8") as out:
+    with open("test_files/output1.txt", "w", encoding="utf-8") as out:
         out.write("\n\n")
         out.write("\n".join(output_lines))
 

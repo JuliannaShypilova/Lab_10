@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3193e301-fa33-4b7a-b55c-a963f135293d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rational_num/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Rational_num/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rational_num/RationalList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rational_num/RationalList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rational_num/test_files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rational_num/test_files/output1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +45,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.RationalList.executor": "Run",
-    "Python.rationalList.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "fix/iterator-update",
-    "last_opened_file_path": "C:/Users/admin/PycharmProjects/pythonProject10/test_files"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.RationalList.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rationalList.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fix/iterator-update&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/PycharmProjects/pythonProject10/test_files&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\PycharmProjects\pythonProject10\test_files" />
