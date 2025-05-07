@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3193e301-fa33-4b7a-b55c-a963f135293d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rational_num/RationalList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rational_num/RationalList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rational_num/test_files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rational_num/test_files/output1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rational_num/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Rational_num/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     &quot;Python.RationalList.executor&quot;: &quot;Run&quot;,
     &quot;Python.rationalList.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;fix/iterator-update&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/PycharmProjects/pythonProject10/test_files&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
