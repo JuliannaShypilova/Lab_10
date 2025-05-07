@@ -46,39 +46,50 @@ class RationalList:
         self.data.sort(key=lambda r: r())
 
     def __iter__(self):
-        return iter(self.data)
+        sorted_data = sorted(self.data, key=lambda r: (-r["d"], -r["n"]))
+        return iter(sorted_data)
 
     def generator(self):
         for item in self.data:
             yield item
 
-if __name__ == "__main__":
-    input_files = [
-        "test_files/input01 (2).txt",
-        "test_files/input02.txt",
-        "test_files/input03.txt"
-    ]
+from Rational_num.rational import Rational
+from RationalList import RationalList
 
-    with open("test_files/output.txt", "w") as output_file:
-        for filename in input_files:
-            operation = '-'
-            with open(filename, "r") as f:
-                for line in f.readlines():
-                    data = line.split()
-                    result = Rational(0, 1)
-                    for item in data:
-                        if item == '+':
-                            operation = '+'
-                        elif item == '-':
-                            operation = '-'
-                        elif item == '*':
-                            operation = '*'
-                        else:
-                            number = Rational(item)
-                            if operation == '+':
-                                result += number
-                            elif operation == '-':
-                                result -= number
-                            elif operation == '*':
-                                result *= number
-                    output_file.write(f"{filename}: {result} = {result()}\n")
+def parse_rational(token):
+    if '/' in token:
+        return Rational(token)
+    elif token.strip():
+        return Rational(int(token), 1)
+    return None
+
+def process_file(filename, output_lines):
+    rl = RationalList()
+    with open(filename, "r", encoding="utf-8") as f:
+        for line in f:
+            for token in line.strip().split():
+                try:
+                    r = parse_rational(token)
+                    if r:
+                        rl += r
+                except Exception as e:
+                    print(f"Пропущено '{token}': {e}")
+    output_lines.append(f"{filename}:")
+    output_lines.append(" ".join(str(r) for r in rl))
+    output_lines.append("")
+
+
+if __name__ == "__main__":
+    input_files = ["test_files/input01.txt",
+                   "test_files/input02.txt",
+                   "test_files/input03.txt"]
+    output_lines = []
+
+    for filename in input_files:
+        process_file(filename, output_lines)
+
+    with open("test_files/=output.txt", "w", encoding="utf-8") as out:
+        out.write("\n\n")
+        out.write("\n".join(output_lines))
+
+
