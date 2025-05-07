@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3193e301-fa33-4b7a-b55c-a963f135293d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rational_num/gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Rational_num/gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rational_num/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Rational_num/.gitattributes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,5 +78,8 @@
       <updated>1746540970119</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".gitattributes" />
   </component>
 </project>
